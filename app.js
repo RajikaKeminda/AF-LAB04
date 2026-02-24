@@ -30,3 +30,6 @@ console.log(JSON.parse(data));
 
 });
 });
+
+const myModule = require('./my-module');
+myModule.myFunction();
